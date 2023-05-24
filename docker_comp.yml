@@ -1,0 +1,52 @@
+version: "2.18.1"
+
+
+services:
+  master1:
+    image: mysql:debian
+    container_name: master
+    ports:
+      - "3390:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 123
+      MYSQL_DATABASE: master_db_GN
+
+    volumes:
+      - ./master-scripts:/docker-entrypoint-initdb.d
+    networks:
+      db_net:
+        ipv4_address: 172.20.0.2
+
+
+  db_slave1:
+    image: mysql:debian
+    container_name: slave1
+    ports:
+      - "3391:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: slave1_db_GN
+    networks:
+      db_net:
+        ipv4_address: 172.20.0.3
+
+
+  db_slave2:
+    image: mysql:debian
+    container_name: slave2
+    ports:
+      - "3392:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: slave2_db_GN
+    networks:
+      db_net:
+        ipv4_address: 172.20.0.4
+
+networks:
+  db_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: "172.20.0.0/24"
+
