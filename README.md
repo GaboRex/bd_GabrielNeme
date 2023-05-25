@@ -38,7 +38,7 @@ _Para ejecutar Docker Compose en macOS (Mac), necesitarás:_
 
 Es importante tener en cuenta que Docker Desktop incluye Docker Engine, Docker Compose y otras herramientas relacionadas. Una vez que hayas instalado Docker Desktop correctamente en tu sistema, podrás ejecutar comandos de Docker Compose en la línea de comandos de tu sistema operativo, ya sea Windows o macOS.
 
-## **¿Cómo podemos levantarlo localmente?**
+## **¿Cómo podemos levantarlo localmente? 🤓**
 
 1. Abre una terminal o línea de comandos en tu sistema operativo.Clona el repositorio utilizando el siguiente comando:
 
