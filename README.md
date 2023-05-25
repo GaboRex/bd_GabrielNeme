@@ -2,13 +2,13 @@
 
 ## **Indice.**
 
-- [Descripcion de la entidad y los requisitos](#Descripcion)
-- [Uso](#uso)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
+- [Descripción de la entidad y los requisitos](#Descripcion)
+- [Diagrama propuesto de Base Datos](#Diagrama)
+- [Requisitos técnicos](#Requisitos)
+- [¿Cómo podemos levantarlo localmente?](#Deploy)
 
 
-## **Descripcion de la entidad y los requisitos**🏢.
+## **Descripción de la entidad y los requisitos**🏢.
 
 _La CEASS (Central de Abastecimiento y Suministros de Salud) es una institución destacada en el suministro de medicamentos esenciales en Bolivia. Su principal misión es garantizar el abastecimiento de medicamentos esenciales y suministros médicos de calidad, a precios asequibles, a todos los establecimientos de salud de los subsectores público y de la seguridad social de corto plazo en el país._
 
@@ -35,7 +35,7 @@ Docker y los contenedores.
 
 Es importante tener en cuenta que Docker Desktop incluye Docker Engine, Docker Compose y otras herramientas relacionadas. Una vez que hayas instalado Docker Desktop correctamente en tu sistema, podrás ejecutar comandos de Docker Compose en la línea de comandos de tu sistema operativo, ya sea Windows o macOS.
 
-## **¿Como podemos levantarlo localmente?**
+## **¿Cómo podemos levantarlo localmente?**
 
 1. Abre una terminal o línea de comandos en tu sistema operativo.Clona el repositorio utilizando el siguiente comando:
 
