@@ -1,4 +1,4 @@
-# **Primer Parcial Base de Datos Avanzadas- Implementación Del Nuevo Sistema De Almacenes Para Los Medicamentos Controlados Para La Ceass**.👨‍⚕️👩‍⚕️🏥
+# **Primer Parcial BD - Implementación  Nuevo Sistema De Almacenes Para Los Medicamentos Controlados Para La Ceass**.👨‍⚕️🏥
 
 ## **Descripcion de la entidad y los requisitos**🏢.
 
@@ -7,7 +7,7 @@ _La CEASS (Central de Abastecimiento y Suministros de Salud) es una institución
 _Lo que se busca con esta propuesta es tener una base de datos la cual nos permita verificar y registrar los clientes, medicamentos, proveedores, ventas, compras, movimientos de almacenes, entre otros._
 
 ## **Diagrama propuesto de Base Datos**.
-foto
+
 
 ## **Requisitos técnicos**🖥💻.
 ### Windows.
@@ -30,17 +30,18 @@ Es importante tener en cuenta que Docker Desktop incluye Docker Engine, Docker C
 
 1. Abre una terminal o línea de comandos en tu sistema operativo.Clona el repositorio utilizando el siguiente comando:
 
-    ```git clone https://github.com/GaboRex/bd_GabrielNeme.git```
+        git clone https://github.com/GaboRex/bd_GabrielNeme.git
 
 2. Guardalo en una carpeta nueva para evitar conflictos, localiza la misma y ejecuta un:
 
-    ```cd <nombre_carpeta>```
+        cd <nombre_carpeta>
 3. Verifica que el archivo docker-comp.yml y la carpeta master-scripts esten presentes en la carpeta. Puedes usar el siguiente comando para listar los archivos en la ubicación actual:
 
         ls
 4. Una vez que te encuentres en la ubicación correcta del repositorio y el archivo docker-comp.yml y la carpeta master-cripts esten presentes, puedes ejecutar el siguiente comando para levantar los servicios definidos en tu archivo docker-comp.yml:
 
         docker-compose up
+
 **OJO**
 
 Esto solo funcionara si nos ecnontramos en ese directorio. Si es que no debemos ejecutar el mismo comando pero con la ruta correspondiente del archivo docker-comp.yml.
