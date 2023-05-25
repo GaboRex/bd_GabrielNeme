@@ -63,6 +63,11 @@ Esto solo funcionara si nos ecnontramos en ese directorio. Si es que no debemos 
 5. Si deseas detener los servicios y eliminar los contenedores, puedes utilizar el siguiente comando en la terminal:
 
         docker-compose down
+        
+ ## Contraseñas de los contenedores👾
+      master  contraseña = 123
+      slave1  contraseña = 1234
+      slave2  contraseña = 1234
 
 
 ## Autor:✒️
