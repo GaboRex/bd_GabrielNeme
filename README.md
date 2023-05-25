@@ -7,6 +7,7 @@ _La CEASS (Central de Abastecimiento y Suministros de Salud) es una institución
 _Lo que se busca con esta propuesta es tener una base de datos la cual nos permita verificar y registrar los clientes, medicamentos, proveedores, ventas, compras, movimientos de almacenes, entre otros._
 
 ## **Diagrama propuesto de Base Datos**.
+![UML BD drawio](https://github.com/GaboRex/bd_GabrielNeme/assets/80688833/107956d2-cf59-48a7-ab54-cb0f50a40e4e)
 
 
 ## **Requisitos técnicos**🖥💻.
