@@ -1,4 +1,4 @@
-USE master_db;
+USE master_db_GN;
 
 CREATE TABLE Clientes (
   IDCliente INT PRIMARY KEY,

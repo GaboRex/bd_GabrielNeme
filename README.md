@@ -24,8 +24,8 @@ _Para ejecutar Docker Compose en Windows, necesitarás:_
 
 * _Sistema operativo: Windows 10 64-bit: Pro, Enterprise o Education (con la versión 1607 o posterior) o Windows Server 2016.
 * Docker Desktop: Debes tener instalado Docker Desktop para Windows. Puedes descargarlo e instalarlo desde el sitio web oficial de Docker.
-* Hardware y recursos: Asegúrate de tener suficiente capacidad de procesamiento, memoria RAM y espacio en disco para ejecutar Docker y los contenedores.
-### IOS.
+* Git: Para poder clonar nuestro repositorio  
+### MAC.
 _Para ejecutar Docker Compose en macOS (Mac), necesitarás:_
 
 * Sistema operativo: macOS 10.13 o superior.
